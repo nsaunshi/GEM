@@ -1,0 +1,185 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/grpname"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#F2F5A9" />
+
+    <ImageButton
+        android:id="@+id/minusButton4"
+        style="@style/EditButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/desc"
+        android:onClick="removeMember"
+        android:tag="4" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:text="@string/addevent" />
+    
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="160dp"
+        android:text="@string/cashtransfer"
+        android:onClick="cashTransfer" />
+    
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/balance"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/nameText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:text="@string/test"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/balanceText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameText1"
+        android:layout_alignBottom="@+id/nameText1"
+        android:layout_toLeftOf="@+id/minusButton4"
+        android:layout_marginTop="30dp"
+        android:text="@string/test"
+        android:textColor="#ffffff" />
+    
+    
+    <TextView
+        android:id="@+id/nameText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameText1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:text="@string/test"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/balanceText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameText2"
+        android:layout_alignBottom="@+id/nameText2"
+        android:layout_toLeftOf="@+id/minusButton4"
+        android:layout_marginTop="30dp"
+        android:text="@string/test"
+        android:textColor="#ffffff" />
+    
+    
+    <TextView
+        android:id="@+id/nameText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameText2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:text="@string/test"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/balanceText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameText3"
+        android:layout_alignBottom="@+id/nameText3"
+        android:layout_toLeftOf="@+id/minusButton4"
+        android:layout_marginTop="30dp"
+        android:text="@string/test"
+        android:textColor="#ffffff" />
+    
+    
+    <TextView
+        android:id="@+id/nameText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameText3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:text="@string/test"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/balanceText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameText4"
+        android:layout_alignBottom="@+id/nameText4"
+        android:layout_toLeftOf="@+id/minusButton4"
+        android:layout_marginTop="30dp"
+        android:text="@string/test"
+        android:textColor="#ffffff" />
+    
+    
+    <TextView
+        android:id="@+id/nameText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameText4"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:text="@string/test"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/balanceText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameText5"
+        android:layout_alignBottom="@+id/nameText5"
+        android:layout_toLeftOf="@+id/minusButton4"
+        android:layout_marginTop="30dp"
+        android:text="@string/test"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

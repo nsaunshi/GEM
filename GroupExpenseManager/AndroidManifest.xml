@@ -1,0 +1,53 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.groupexpensemanager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/head"
+        android:theme="@android:style/Theme.Light" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GroupsActivity"
+            android:label="@string/title_activity_groups" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.groupexpensemanager.MainActivity" />
+        </activity>
+        <activity
+            android:name=".NewGroupActivity"
+            android:label="@string/title_activity_new_group" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.groupexpensemanager.GroupsActivity" />
+        </activity>
+        <activity
+            android:name=".GroupSummaryActivity"
+            android:label="@string/title_activity_group_summary" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.groupexpensemanager.GroupsActivity" />
+        </activity>
+        <activity
+            android:name=".CashTransferActivity"
+            android:label="@string/title_activity_cash_transfer" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.groupexpensemanager.GroupSummaryActivity" />
+        </activity>
+    </application>
+
+</manifest>

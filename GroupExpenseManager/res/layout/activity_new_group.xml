@@ -1,0 +1,248 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#222222"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:stretchColumns="*" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/newGrpPage2"
+            android:layout_weight="0.1"
+            android:paddingRight="0dp"
+            android:text="@string/grpname"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/grpText"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1.5"
+            android:inputType="none|text|textPersonName" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
+        android:stretchColumns="*"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/TextView00"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.01"
+            android:paddingRight="0dp"
+            android:text="@string/name1"
+            android:textAppearance="@style/newGrpPage2"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/EditText00"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="5"
+            android:inputType="text|textPersonName" />
+
+       <CheckBox
+           android:id="@+id/checkBox1"
+           android:layout_weight="0.2"
+           android:text="@string/me"
+           android:textColor="#ffffff"
+           android:textSize="6pt" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRowNew1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
+        android:stretchColumns="*"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.01"
+            android:paddingRight="0dp"
+            android:text="@string/name2"
+            android:textAppearance="@style/newGrpPage2"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/EditText01"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="8"
+            android:inputType="text|textPersonName" />
+
+        <ImageButton
+            android:id="@+id/minusButton1"
+            style="@style/MinusButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:contentDescription="@string/desc"
+            android:onClick="removeMember"
+            android:tag="1" />
+      
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRowNew2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
+        android:stretchColumns="*"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.01"
+            android:paddingRight="0dp"
+            android:text="@string/name3"
+            android:textAppearance="@style/newGrpPage2"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/EditText02"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="8"
+            android:inputType="text|textPersonName" />
+
+        <ImageButton
+            android:id="@+id/minusButton2"
+            style="@style/MinusButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:contentDescription="@string/desc"
+            android:onClick="removeMember"
+            android:tag="2" />
+      
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRowNew3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
+        android:stretchColumns="*"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.01"
+            android:paddingRight="0dp"
+            android:text="@string/name4"
+            android:textAppearance="@style/newGrpPage2"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/EditText03"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="8"
+            android:inputType="text|textPersonName" />
+
+        <ImageButton
+            android:id="@+id/minusButton3"
+            style="@style/MinusButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:contentDescription="@string/desc"
+            android:onClick="removeMember"
+            android:tag="3" />
+      
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRowNew4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
+        android:stretchColumns="*"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.01"
+            android:paddingRight="0dp"
+            android:text="@string/name5"
+            android:textAppearance="@style/newGrpPage2"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/EditText04"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="8"
+            android:inputType="text|textPersonName" />
+
+        <ImageButton
+            android:id="@+id/minusButton4"
+            style="@style/MinusButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:contentDescription="@string/desc"
+            android:onClick="removeMember"
+            android:tag="4" />
+      
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        android:stretchColumns="*"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:onClick="addMember"
+            android:padding="0dp"
+            android:text="@string/add"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/doneButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:onClick="done"
+            android:padding="0dp"
+            android:text="@string/done"
+            android:textSize="13dp" />
+    </TableRow>
+
+</TableLayout>

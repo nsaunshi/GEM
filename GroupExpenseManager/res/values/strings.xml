@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name">Group Expense Manager</string>
+    <string name="head">Group Expense Manager</string>
+    <string name="main1">Group Expense</string>
+    <string name="main2">Manager</string>
+    <string name="loading">Loading</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Group Expense Manager</string>
+    <string name="grpname">Group Name</string>
+    <string name="name1">Member 1</string>
+    <string name="name2">Member 2</string>
+    <string name="name3">Member 3</string>
+    <string name="name4">Member 4</string>
+    <string name="name5">Member 5</string>
+    <string name="me">Me</string>
+    <string name="add">Add Member</string>
+    <string name="done">Done</string>
+    <string name="desc">A Minus Icon</string>
+    <string name="desc2">An Edit Icon</string>
+    <string name="desc3">An Icon</string>
+    <string name="title_activity_groups">GroupsActivity</string>
+    <string name="existing_groups">Existing Groups</string>
+    <string name="add_group">Add Group</string>
+    <string name="title_activity_new_group">NewGroupActivity</string>
+    <string name="blank"></string>
+    <string name="title_activity_group_summary">GroupSummaryActivity</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="test">Test</string>
+    <string name="name">Member Name</string>
+    <string name="spent">Spent</string>
+    <string name="consumed">Consumed</string>
+    <string name="balance">Balance Due</string>
+    <string name="addevent">Add Event</string>
+    <string name="cashtransfer">Cash Transfer</string>
+    <string name="title_activity_cash_transfer">CashTransferActivity</string>
+    <string name="amount">Amount</string>
+
+</resources>
